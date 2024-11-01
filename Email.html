@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email tempalte</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-size: 16px;
+            box-sizing: border-box;
+            line-height: 24px;
+        }
+
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .font16 {
+            font-size: 16px;
+        }
+
+        .font18 {
+            font-size: 18px;
+
+        }
+
+        .titel h2 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 36px;
+        }
+
+        .subtitel {
+            width: 35%;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 85%;
+        }
+
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4 {
+            width: 15%;
+            display: inline-block;
+        }
+
+        .col-2 {
+            width: 49.9%;
+        }
+
+        .col-3 {
+            width: 32.99%;
+        }
+
+        @media only screen and (max-width: 576px) {
+            .subtitel {
+                width: 50%;
+            }
+
+            .titel h2 {
+                font-size: 32px;
+            }
+
+            .col-1 {
+                width: 24%;
+            }
+
+            .col-2 {
+                width: 74.99%;
+            }
+
+            .col-3 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .font16 {
+                font-size: 14px;
+            }
+
+            .font18 {
+                font-size: 16px;
+
+            }
+
+            .titel h2 {
+                font-size: 28px;
+            }
+
+            .col-1 {
+                width: 24%;
+            }
+
+            .col-2 {
+                width: 74%;
+            }
+        }
+
+        @media only screen and (max-width: 420px) {
+            .col-2 h4 {
+                font-size: 18px;
+            }
+
+            .titel h2 {
+                font-size: 24px;
+            }
+
+            .subtitel {
+                width: 60%;
+            }
+
+            .container {
+                width: 95%;
+                max-width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body
+    style="width: 100%; max-width: 800px; background-color: white; box-sizing: border-box; font-size: 16px; margin: auto">
+    <table class="Emailbody" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+        <tr>
+            <td>
+                <table class="wapper" style=" max-width: 100%; background-color:white ; margin: auto; ">
+                    <tr>
+
+                        <td>
+                            <!-- header section start -->
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                    <td>
+                                        <table class="titel" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <h2 style=" font-family: bold; color: black;">I secoured Amazon's
+                                                        Fashion - here are the 22 best early Prime Day deals</h2>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="headParagram">
+                                            <tr>
+                                                <td>
+                                                    <p
+                                                        style="margin: 0px; font-size: 18px; line-height: 24px; padding-top: 10px; padding-bottom: 10px;">
+                                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                        Similique nesciunt officiis nulla ab dolor unde id praesentium?
+                                                        Molestias totam natus, ipsam amet, corrupti officiis qui
+                                                        <a href="">
+                                                            more...
+                                                        </a>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- header section end-->
+                        </td>
+                    </tr>
+                    <!-- author section start -->
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr valign="middle">
+                                    <td class="author_img" style="width: 10%; text-align: center; padding: 10px;">
+                                        <img style="width: 50px;" src="https://i.postimg.cc/Dwt2BJsS/author-img.png"
+                                            alt="author image" srcset="https://i.postimg.cc/Dwt2BJsS/author-img.png">
+                                    </td>
+                                    <td class="author_details">
+
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                            width="100%">
+                                            <tr>
+                                                <td>
+                                                    <p> <strong class="Name">Author Name</strong class="Profession"> -
+                                                        <span> Author Profession</span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="author_bio">
+                                                    <p>author bio text Lorem ipsum dolor sit </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- author section end -->
+                    <!-- hero image section start -->
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                    <td class="heroImag">
+                                        <img style="width: 100%; max-width: 800px;"
+                                            src="https://i.postimg.cc/LXV29xWP/heroImg.png" alt="Hero Image">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="caption">
+                                        <p style="margin-top: 10px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- hero image section end - -->
+                    <!-- paragraph section -->
+                    <tr>
+                        <td>
+                            <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                                class="container" style="margin: auto; margin-top: 20px;">
+                                <tr>
+                                    <td>
+                                        <p class="font18">Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Vitae, incidunt officiis dolore aperiam ullam
+                                            eligendi deserunt fugit fuga voluptatum repellat enim delectus quis
+                                            doloribus quisquam veniam provident? Impedit, ex debitis!
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita cumque
+                                            labore dignissimos illo perferendis eaque cupiditate commodi consectetur qui
+                                            sapiente reiciendis maiores ipsum aspernatur, fuga temporibus ut odit quis
+                                            explicabo?
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- header quick overview section -->
+                    <tr>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                    <td>
+                                        <hr style="background-color: #c5c5c5;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="padding-top: 15px; padding-bottom: 15px; margin: auto;" class="container">
+                                <tr>
+                                    <td class="subtitel" style=" display: inline block;text-align: center;">
+                                        <strong style="text-align: center; font-size: 24px; font-weight: bold; ">Quick
+                                            overview</strong>
+
+                                    </td>
+                                    <td align="left" class="hr" style=" display: inline block; text-align: left;">
+                                        <hr style="font-weight: bold; height: 2px; background: black;">
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- header quick overview section -->
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" class="container"
+                                style="margin: auto;">
+                                <tr valgin="middle">
+
+                                    <td class="productimg col-1">
+                                        <img src="https://i.postimg.cc/QM1jP8k0/Product-Img.png" alt="Product Imag"
+                                            srcset="https://i.postimg.cc/QM1jP8k0/Product-Img.png">
+                                    </td>
+                                    <td class="col-2" style="padding-top: 5px; padding-bottom: 5px;">
+                                        <h4 style="color: blueviolet; margin: 0px;" class="font18">Gloria Vanderbit
+                                            classic higth Rise Amada Tapered Jeans </h4>
+                                        <p style="margin-top: 10px;"> <span
+                                                style="color: red; font-weight: bold;">$25</span> <span>$15</span>
+                                            <strong> Save $10</strong></p>
+                                    </td>
+                                    <td class="col-3">
+                                        <a href="" style="text-decoration: none; text-align: center;">
+                                            <div class="productMoreBtn"
+                                                style="border: 2px solid black ;border-radius:2rem; padding-top: 5px; padding-bottom: 5px; font-weight: bold;">
+                                                Seen Produt details </div>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" role="presentation" class="container"
+                                style="margin: auto; opacity: 0.5;">
+                                <tr>
+                                    <td>
+                                        <hr style="background-color: #c5c5c5; height: 1px;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" class="container"
+                                style="margin: auto;">
+                                <tr valgin="middle">
+                                    <td class="productimg col-1">
+                                        <img src="https://i.postimg.cc/26YCNs0m/Product-Img1.png" alt="Product Imag"
+                                            srcset="https://i.postimg.cc/26YCNs0m/Product-Img1.png">
+                                    </td>
+                                    <td class="col-2">
+                                        <h4 style="color: blueviolet; margin: 0px;" class="font18">brabic Tummy
+                                            Control bodysult </h4>
+                                        <p style="margin-top: 10px;"> <span
+                                                style="color: red; font-weight: bold;">$25</span> <span>$15</span>
+                                            <strong> Save $10</strong></p>
+                                    </td>
+                                    <td class="col-3" style="text-align: center;">
+                                        <a href="" style="text-decoration: none;">
+                                            <div class="productMoreBtn"
+                                                style="border: 2px solid black ;border-radius:2rem; padding-top: 5px; padding-bottom: 5px; font-weight: bold;">
+                                                Seen Produt details </div>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- product section -->
+
+
+                    <!-- see more btn section -->
+                    <tr>
+                        <td align="left">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                style="margin: auto; padding-top: 50px; padding-bottom: 30px;">
+                                <tr>
+                                    <td align="left">
+                                        <table cellpadding="0" cellspacing="0" role="presentation" width="30%"
+                                            style="opacity: 0.5;">
+                                            <tr>
+                                                <td>
+                                                    <hr style="background-color: #c5c5c5; height: 1px;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr width="30%">
+                                    <td style="padding-top: 15px; text-align: center;">
+                                        <table cellpadding="0" cellspacing="0" role="presentation" class="subtitel">
+                                            <tr>
+                                                <td>
+                                                    <a href="#" class="font18">See 24 more</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- see more btn  section -->
+                    <!-- section -->
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" class="container"
+                                style="margin: auto;">
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                                    <h2>Best Prime Day clothing deals</h2>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <!-- product 1 details section start -->
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation" width="100%">
+                                                        <tr>
+                                                            <td>
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                    role="presentation" class="container"
+                                                                    style="margin: auto;">
+                                                                    <tr valgin="middle">
+                                                                        <td class="productimg" width="25%">
+                                                                            <img src="https://i.postimg.cc/QM1jP8k0/Product-Img.png"
+                                                                                alt="Product Imag" srcset="">
+                                                                        </td>
+                                                                        <td>
+                                                                            <h4 style="color: blueviolet;  margin: 0px;"
+                                                                                class="font18">
+                                                                                Gloria Vanderbit classic higth Rise
+                                                                                Amada Tapered Jeans </h4>
+                                                                            <div class="subtitel">
+                                                                                <hr
+                                                                                    style="background-color: black; height: 2px; margin-top: 20px;">
+                                                                                <p style="margin-top: 10px;"> <span
+                                                                                        style="color: red; font-weight: bold;">$25</span>
+                                                                                    <span>$15</span> <strong> Save
+                                                                                        $10</strong></p>
+                                                                            </div>
+
+                                                                        </td>
+
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style=" margin-top: 20px;" class="font18">
+                                                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                    elit. Maiores recusandae ipsa aspernatur accusamus
+                                                                    dolores provident eaque voluptatem neque quo. Dicta
+                                                                    recusandae voluptates omnis pariatur? Atque
+                                                                    molestias ipsa repellat dignissimos consequatur.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="margin-top: 20px;" class="font18">
+                                                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                    elit. Maiores recusandae ipsa aspernatur accusamus
+                                                                    dolores provident eaque voluptatem neque quo. </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                    role="presentation" width="60%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <a href="" style="text-decoration: none;">
+                                                                                <div class="productMoreBtn"
+                                                                                    style=" color: aliceblue; background-color: black ;border-radius:2rem; padding-top: 5px; padding-bottom: 5px; font-weight: bold;">
+                                                                                    Seen Produt details </div>
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- product 1 details section start -->
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <!-- product 1 details section start -->
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation" width="100%">
+                                                        <tr>
+                                                            <td>
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                    role="presentation" class="container"
+                                                                    style="margin: auto;">
+                                                                    <tr valgin="middle">
+                                                                        <td class="productimg" width="25%">
+                                                                            <img src="https://i.postimg.cc/26YCNs0m/Product-Img1.png"
+                                                                                alt="Product Imag"
+                                                                                srcset="https://i.postimg.cc/26YCNs0m/Product-Img1.png">
+                                                                        </td>
+                                                                        <td>
+                                                                            <h4
+                                                                                style="color: blueviolet; font-size: 20px; margin: 0px;">
+                                                                                Brabic Tummy Control bodysult </h4>
+                                                                            <div class="subtitel">
+                                                                                <hr
+                                                                                    style="background-color: black; height: 2px; margin-top: 20px;">
+                                                                                <p style="margin-top: 10px;"> <span
+                                                                                        style="color: red; font-weight: bold;">$25</span>
+                                                                                    <span>$15</span> <strong> Save
+                                                                                        $10</strong></p>
+                                                                            </div>
+
+                                                                        </td>
+
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style=" margin-top: 20px;" class="font18">
+                                                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                    elit. Maiores recusandae ipsa aspernatur accusamus
+                                                                    dolores provident eaque voluptatem neque quo. Dicta
+                                                                    recusandae voluptates omnis pariatur? Atque
+                                                                    molestias ipsa repellat dignissimos consequatur.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="margin-top: 20px;" class="font18">
+                                                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                    elit. Maiores recusandae ipsa aspernatur accusamus
+                                                                    dolores provident eaque voluptatem neque quo. </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                    role="presentation" width="60%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <a href="" style="text-decoration: none;">
+                                                                                <div class="productMoreBtn"
+                                                                                    style=" color: aliceblue; background-color: black ;border-radius:2rem; padding-top: 5px; padding-bottom: 5px; font-weight: bold;">
+                                                                                    Seen Produt details </div>
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- product 1 details section start -->
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--  section -->
+                    <!-- section -->
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
